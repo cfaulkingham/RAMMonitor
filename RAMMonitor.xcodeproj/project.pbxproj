@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1000001 /* RAMMonitorMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000001 /* RAMMonitorMain.swift */; };
+		A1000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000002 /* AppDelegate.swift */; };
+		A1000003 /* RAMInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000003 /* RAMInfo.swift */; };
+		A1000004 /* RAMViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000004 /* RAMViewModel.swift */; };
+		A1000005 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1000005 /* PopoverView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B1000000 /* RAMMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAMMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1000001 /* RAMMonitorMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMMonitorMain.swift; sourceTree = "<group>"; };
+		B1000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1000003 /* RAMInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMInfo.swift; sourceTree = "<group>"; };
+		B1000004 /* RAMViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RAMViewModel.swift; sourceTree = "<group>"; };
+		B1000005 /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C1000000 = {
+			isa = PBXGroup;
+			children = (
+				C1000001 /* RAMMonitor */,
+				C1000002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1000001 /* RAMMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				B1000001 /* RAMMonitorMain.swift */,
+				B1000002 /* AppDelegate.swift */,
+				B1000003 /* RAMInfo.swift */,
+				B1000004 /* RAMViewModel.swift */,
+				B1000005 /* PopoverView.swift */,
+			);
+			path = RAMMonitor;
+			sourceTree = "<group>";
+		};
+		C1000002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1000000 /* RAMMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D1000000 /* RAMMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1000001 /* Build configuration list for PBXNativeTarget "RAMMonitor" */;
+			buildPhases = (
+				D1000001 /* Sources */,
+				D1000002 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAMMonitor;
+			productName = RAMMonitor;
+			productReference = B1000000 /* RAMMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D1000000 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = E1000000 /* Build configuration list for PBXProject "RAMMonitor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1000000;
+			productRefGroup = C1000002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D1000000 /* RAMMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D1000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1000001 /* RAMMonitorMain.swift in Sources */,
+				A1000002 /* AppDelegate.swift in Sources */,
+				A1000003 /* RAMInfo.swift in Sources */,
+				A1000004 /* RAMViewModel.swift in Sources */,
+				A1000005 /* PopoverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1000002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E1000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E1000004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RAMMonitor/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableDescription = "RAM Usage monitor in the menu bar";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colin.RAMMonitor;
+				PRODUCT_NAME = RAMMonitor;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E1000005 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = RAMMonitor/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableDescription = "RAM Usage monitor in the menu bar";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.colin.RAMMonitor;
+				PRODUCT_NAME = RAMMonitor;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1000000 /* Build configuration list for PBXProject "RAMMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1000002 /* Debug */,
+				E1000003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1000001 /* Build configuration list for PBXNativeTarget "RAMMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1000004 /* Debug */,
+				E1000005 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = D2000000 /* Project object */;
+}

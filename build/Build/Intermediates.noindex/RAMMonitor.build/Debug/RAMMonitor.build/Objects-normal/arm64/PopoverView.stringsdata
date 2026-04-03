@@ -1,0 +1,48 @@
+{
+  "source": "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor/PopoverView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Memory",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 11
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@ of %@ used",
+        "location": {
+          "startingColumn": 26,
+          "startingLine": 14
+        }
+      },
+      {
+        "comment": "",
+        "key": "PRESSURE",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "Updates every 2s",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 66
+        }
+      },
+      {
+        "comment": "",
+        "key": "Quit",
+        "location": {
+          "startingColumn": 24,
+          "startingLine": 70
+        }
+      }
+    ]
+  },
+  "version": 1
+}

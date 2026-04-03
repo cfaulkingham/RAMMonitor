@@ -1,0 +1,10 @@
+version: "Apple Swift version 6.1 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)"
+options: "c1d6cce07a6ee1c8cf6fb92858db89c06c1421eff78e13cad02d55eda51f6f10"
+build_start_time: [1775173473, 963551000]
+build_end_time: [1775173477, 59217000]
+inputs:
+  "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor/AppDelegate.swift": [1775172888, 0]
+  "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor/PopoverView.swift": [1775173423, 53475935]
+  "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor/RAMInfo.swift": [1775172859, 0]
+  "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor/RAMMonitorMain.swift": [1775173412, 10043321]
+  "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor/RAMViewModel.swift": [1775172862, 0]

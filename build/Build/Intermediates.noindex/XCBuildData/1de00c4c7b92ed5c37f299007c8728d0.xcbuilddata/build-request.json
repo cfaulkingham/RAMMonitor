@@ -1,0 +1,67 @@
+{
+  "buildCommand" : {
+    "command" : "build",
+    "skipDependencies" : false,
+    "style" : "buildOnly"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "c2a3eb704c5b554b50d71839cf55e3fac0b999886285b30c82601ecf3e834e86"
+    }
+  ],
+  "containerPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/RAMMonitor.xcodeproj",
+  "continueBuildingAfterErrors" : false,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx15.4",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/build/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/build/Build/Products",
+      "derivedDataPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/build",
+      "indexDataStoreFolderPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/build/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/build/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/colinfaulkingham/Desktop/dev_experiments/RAMMonitor/build/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "commandLine" : {
+        "table" : {
+          "CODE_SIGN_IDENTITY" : "-",
+          "CODE_SIGNING_REQUIRED" : "NO"
+        }
+      },
+      "synthesized" : {
+        "table" : {
+          "ACTION" : "build",
+          "COLOR_DIAGNOSTICS" : "YES",
+          "diagnostic_message_length" : "163",
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "YES",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
